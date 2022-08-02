@@ -19,6 +19,15 @@
   }
 }
 
+&--green {
+  background-color: $color-primary;
+  color: $color-white;
+  
+  &::after {
+    background-color: $color-primary;
+  }
+}
+
 &:hover {
   transform: translateY(-.3rem);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.219);
